@@ -9,12 +9,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Sigabu</title>
+	<title>Presentación de proyecto</title>
 	<meta charset="ISO-8859-1" />
 	<meta name="viewport" content="width=1274, user-scalable=no">
 	<meta name="author" content="Jhon Adrián Cerón Guzmán" />
-	<meta name="description" content="Sistema de Información para la gestión de actividades de Bienestar Universitario." />
-	<meta name="keywords" content="sistema de información, bienestar universitario, software libre" />
+	<meta name="description" 
+	content="Presentación del proyecto Sigabu, en la cual se plantea desde el contexto de éste hasta los resultados y las conclusiones." />
+	<meta name="keywords" content="presentación, contexto, sigabu, metodología, resultados" />
+	<link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico"/>
 	<link rel="stylesheet" href="themes/ucc/styles/style.css">
 	<style>
 		#Inicio H2, #Why H2, #Software H2 {
@@ -22,6 +24,11 @@
 			text-align:center;
 			font-size:70px;
 			}
+		#Sigabu_2 H2, #Plibu H2 {
+			color:#000;
+			text-align:center;
+			font-size:70px;
+		}
 	</style>
 </head>
 <body class="list">
@@ -301,6 +308,307 @@
 					</ol>
 				</li>
 			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Metodología"><div>
+		<section>
+			<header>
+				<h2>Metodología</h2>
+			</header>
+			<ul>
+				<li><strong>Proceso Unificado de Desarrollo de Software</strong>
+					<ul>
+						<li><strong>Lenguaje unificado de modelado</strong>
+							<ul>
+								<li>BOOCH, Grady; RUMBAUGH, James y JACOBSON, Ivar</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="ProcesoUnificado"><div>
+		<section>
+			<header>
+				<h2>Proceso Unificado</h2>
+			</header>
+			<img src="pictures/procesounificado.jpg" alt="Proceso unificado" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Análisis"><div>
+		<section>
+			<header>
+				<h2>Requisitos y Análisis</h2>
+			</header>
+			<ol>
+				<li>Entrevistas con el cliente y usuarios finales</li>
+				<li>Captura de requisitos
+					<ul>
+						<li>Especificación de requisitos de software &rarr; IEEE 830</li>
+					</ul>
+				</li>
+				<li>Modelado de dominio</li>
+				<li>Modelado de casos de uso</li>
+			</ol>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Dominio"><div>
+		<section>
+			<header>
+				<h2>Modelado de dominio</h2>
+			</header>
+			<img src="pictures/metodologia/modeloDominio.png" alt="Modelo de dominio" style="width:500px;height:299px;" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Autenticación"><div>
+		<section>
+			<header>
+				<h2>Modelado de casos de uso</h2>
+			</header>
+			<img src="pictures/metodologia/autenticacionUsuarios.png" alt="Caso de uso de Autenticación de usuarios" 
+			style="width:500px;height:277px" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Diseño"><div>
+		<section>
+			<header>
+				<h2>Diseño</h2>
+			</header>
+			<ol>
+				<li>Diagrama de clases</li>
+				<li>Diagramas de interacción
+					<ul>
+						<li>Diagramas de secuencia</li>
+					</ul>
+				</li>
+				<li>Diseño de la arquitectura
+					<ul>
+						<li>Subsistema de diseño &rarr; Diagrama de paquetes</li>
+						<li>Modelo de despliegue</li>
+						<li>Modelo de datos &rarr; Diagrama entidad-relación</li>
+					</ul>
+				</li>
+			</ol>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Clases"><div>
+		<section>
+			<header>
+				<h2>Diagrama de clases</h2>
+			</header>
+			<img src="pictures/metodologia/diagramaClases.png" alt="Diagrama de clases" style="width:750px;height:367px;" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Secuencia"><div>
+		<section>
+			<header>
+				<h2>Diagrama de secuencia</h2>
+			</header>
+			<img src="pictures/metodologia/asistenciaCursos.jpg" alt="Diagrama de secuencia" style="width:750px;height:257px;" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Paquetes"><div>
+		<section>
+			<header>
+				<h2>Diagrama de paquetes</h2>
+			</header>
+			<img src="pictures/metodologia/paquetes.jpg" alt="Diagrama de paquetes" style="width:314px;height:380px;" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Despliegue"><div>
+		<section>
+			<header>
+				<h2>Diagrama de despliegue</h2>
+			</header>
+			<img src="pictures/metodologia/despliegue.png" alt="Diagrama de despliegue" style="width:570px;height:370px;" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="ModeloDatos"><div>
+		<section>
+			<header>
+				<h2>Diagrama de entidad-relación</h2>
+			</header>
+			<img src="pictures/metodologia/sigabu-mer.png" alt="Diagrama entidad-relación" style="width:545px;height:370px;" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Implementación"><div>
+		<section>
+			<header>
+				<h2>Implementación</h2>
+			</header>
+			<ol>
+				<li>Script SQL de Base de Datos &rarr; MySQL</li>
+				<li>Codificación del Sistema de Información
+					<ol>
+						<li>Paradigmas</li>
+						<li>Restricciones en la plataforma software</li>
+					</ol>
+				</li>
+				<li>Sistema de Control de Versiones &rarr; <em>Git</em></li>
+			</ol>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Implementación_2"><div>
+		<section>
+			<header>
+				<h2>Implementación</h2>
+			</header>
+			<ul>
+				<li>Paradigmas
+					<ul>
+						<li>Arquitectura <em>cliente-servidor</em></li>
+						<li>Patrón <em>Modelo Vista Controlador</em></li>
+						<li><em>Programación orientada a objetos</em></li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Implementación_3"><div>
+		<section>
+			<header>
+				<h2>Implementación</h2>
+			</header>
+			<ul>
+				<li>Restricciones en la plataforma software
+					<ul>
+						<li>Apache HTTPd &rarr; Servidor Web</li>
+						<li>PHP &rarr; Programación <em>servidor</em></li>
+						<li>JavaScript &rarr; Programación <em>cliente</em>
+							<ul>
+								<li>jQuery &rarr; <em>RIA</em></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide bg" id="Sigabu_2"><div>
+		<section>
+			<header>
+				<h2>Sigabu</h2>
+			</header>
+			<img src="pictures/sigabu.jpg" alt="Sigabu" style="height:645px;">
+		</section>
+	</div></div>
+	
+	<div class="slide bg" id="Plibu"><div>
+		<section>
+			<header>
+				<h2>Plibu</h2>
+			</header>
+			<img src="pictures/plibu.jpg" alt="Plibu" style="height:640px;">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Implementación_4"><div>
+		<section>
+			<header>
+				<h2>Implementación</h2>
+			</header>
+			<ul>
+				<li>Repositorios &rarr; <a href="https://github.com/delacuesta13" target="_blank">github</a> 
+					<ul>
+						<li><a href="https://github.com/delacuesta13/Sigabu">Sigabu</a>
+							<ol>
+								<li><em>master</em></li>
+								<li><em>doc</em></li>
+								<li><em>testing</em></li>
+								<li><em>gh-pages</em></li>
+							</ol>
+						</li>
+						<li><a href="https://github.com/delacuesta13/Plibu">Plibu</a> &rarr; <em>master</em></li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Pruebas"><div>
+		<section>
+			<header>
+				<h2>Pruebas</h2>
+			</header>
+			<ul>
+				<li>Casos de prueba
+					<ul>
+						<li>Pruebas de <em>caja blanca</em></li>
+						<li>Verificación</li>
+						<li>Validación</li>
+					</ul>
+				</li>
+				<li><em>WebInject</em></li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Pruebas_2"><div>
+		<section>
+			<header>
+				<h2>Pruebas</h2>
+			</header>
+			<img src="pictures/metodologia/pruebas.jpg" alt="Casos de prueba" class="middle">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Transición"><div>
+		<section>
+			<header>
+				<h2>Transición</h2>
+			</header>
+			<ul>
+				<li>Jornada de capacitación</li>
+				<li>Manual de usuario</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Conclusiones"><div>
+		<section>
+			<header>
+				<h2>Conclusiones</h2>
+			</header>
+			<ul>
+				<li>Experiencia profesional adquirida</li>
+				<li>Construcción de un software
+					<ol>
+						<li>Consistente</li>
+						<li>Portable</li>
+						<li>Mantenible</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Gracias"><div>
+		<section>
+			<header>
+				<h2>Sigabu</h2>
+			</header>
+			<p>Jhon Adrián Cerón Guzmán</p>
+			<ul>
+				<li><a href="https://github.com/delacuesta13">github.com/delacuesta13</a></li>
+				<li><a href="mailto:jadrian.ceron@gmail.com">jadrian.ceron@gmail.com</a></li>
+			</ul>
+			<p>Sigabu: <a href="https://github.com/delacuesta13/Sigabu">github.com/delacuesta13/Sigabu/</a></p>
 		</section>
 	</div></div>
 	
