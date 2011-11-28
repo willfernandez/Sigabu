@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Jhon Adrián Cerón Guzmán
+Site: github.com/delacuesta13
+Location: Cali, Colombia
+
+/* SITE */
+	Last update:2011/11/29
+	Language:Castellano
+	Standards: HTML5, CSS3
+	Software:eclipse
